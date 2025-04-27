@@ -1,0 +1,21 @@
+import { usePomodoro } from "@/hooks/usePomodoro";
+import Container from "./container";
+
+const TimerDisplay = () => {
+  const { mode, focusTimer, breakTimer } = usePomodoro();
+
+  return (
+    <Container>
+      <time className="text-[69px] text-white select-none z-10">
+        {mode === "focus" ? focusTimer.formatted : breakTimer.formatted}
+      </time>
+      <span
+        className="text-[69px] leading-none text-white/4 select-none absolute z-5"
+      >
+        88:88
+      </span>
+    </Container>
+  );
+};
+
+export default TimerDisplay;
