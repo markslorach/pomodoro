@@ -10,7 +10,7 @@ const TimerDisplay = () => {
         {mode === "focus" ? focusTimer.formatted : breakTimer.formatted}
       </time>
       <span
-        className="text-[69px] leading-none text-white/4 select-none absolute z-5"
+        className="text-[68px] leading-none text-white/4 select-none absolute z-5"
       >
         88:88
       </span>
