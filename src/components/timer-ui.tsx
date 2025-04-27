@@ -1,4 +1,3 @@
-"use client";
 import { useSettings } from "@/hooks/useSettings";
 import { cn } from "@/lib/utils";
 
@@ -17,7 +16,7 @@ const TimerUI = ({ children }: { children: React.ReactNode }) => {
         id="shine-over-screen-and-casing"
         className="absolute inset-0 pointer-events-none overflow-hidden z-20"
       >
-        <div className="absolute h-70 w-[150%] bg-white/2 blur-xs -rotate-[30deg]"></div>
+        <div className="absolute h-70 w-[155%] bg-white/2 -rotate-[30deg]"></div>
       </div>
 
       <div
@@ -31,7 +30,7 @@ const TimerUI = ({ children }: { children: React.ReactNode }) => {
       >
         <div
           id="gradient-on-screen"
-          className="absolute pointer-events-none z-5 bg-gradient-to-br from-0% from-black/70 to-transparent to-40% inset-0"
+          className="absolute pointer-events-none z-5 bg-gradient-to-br from-0% from-black/80 to-transparent to-40% inset-0"
         />
 
         <div
