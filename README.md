@@ -1,1 +1,1 @@
-<img width="1305" alt="notion-pomodoro" src="https://github.com/user-attachments/assets/3018a781-45fa-4b11-bffd-9be01dc4cd33" />
+<img width="1432" alt="notion-pomodoro" src="https://github.com/user-attachments/assets/178fa50e-dd8d-454f-b630-3af28464fe2f" />
