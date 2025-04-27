@@ -3,16 +3,15 @@ import ColourSwatch from "./colour-swatch";
 import Container from "./container";
 import PageHeading from "./page-heading";
 
+// Vintage 60s colour palette
 const colourList = [
-  "bg-red-700",
-  "bg-orange-700",
-  "bg-lime-700",
-  "bg-emerald-700",
-  "bg-teal-700",
-  "bg-sky-700",
-  "bg-fuchsia-700",
-  "bg-pink-700",
-  "bg-rose-700",
+  "bg-[#A62C2C]",
+  "bg-[#CF4917]",
+  "bg-[#F9AC3D]",
+  "bg-[#758C33]",
+  "bg-[#985915]",
+  "bg-[#D0B284]",
+  "bg-[#2D758C]",
 ];
 
 const ColourPalette = () => {

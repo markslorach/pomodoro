@@ -11,7 +11,7 @@ type SettingsContextType = {
     setTimerColour: (colour: string) => void;
 };
 
-const defaultColour = "bg-rose-700";
+const defaultColour = "bg-[#A62C2C]";
 
 export const SettingsContext = createContext<SettingsContextType | undefined>(undefined);
 

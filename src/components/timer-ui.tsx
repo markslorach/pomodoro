@@ -17,7 +17,7 @@ const TimerUI = ({ children }: { children: React.ReactNode }) => {
         id="shine-over-screen-and-casing"
         className="absolute inset-0 pointer-events-none overflow-hidden z-20"
       >
-        <div className="absolute h-70 w-[150%] bg-white/3 blur-xs -rotate-[30deg]"></div>
+        <div className="absolute h-70 w-[150%] bg-white/2 blur-xs -rotate-[30deg]"></div>
       </div>
 
       <div
@@ -36,7 +36,7 @@ const TimerUI = ({ children }: { children: React.ReactNode }) => {
 
         <div
           id="screen-inner-top-and-bottom-border"
-          className="bg-neutral-900 relative border-t-4 border-b-4 border-white/30 rounded-[25px] w-full h-full overflow-hidden"
+          className="bg-neutral-900 relative border-t-4 border-b-4 border-white/20 rounded-[25px] w-full h-full overflow-hidden"
         >
           <div
             id="bottom-glare"
