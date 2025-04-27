@@ -8,7 +8,7 @@ const TimerSettings = () => {
 
   return (
     <Container className="pt-5 select-none">
-      <PageHeading>Timer Settings</PageHeading>
+      <PageHeading>Settings</PageHeading>
 
       <div className="flex flex-col gap-3 w-full relative z-5">
         <h2 className="text-white text-center text-[12px]">Focus</h2>
