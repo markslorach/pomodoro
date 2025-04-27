@@ -6,7 +6,7 @@ const TimerDisplay = () => {
 
   return (
     <Container>
-      <time className="text-[69px] text-white select-none z-10">
+      <time className="text-[68px] text-white select-none z-10">
         {mode === "focus" ? focusTimer.formatted : breakTimer.formatted}
       </time>
       <span

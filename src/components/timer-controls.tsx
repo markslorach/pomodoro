@@ -7,7 +7,7 @@ const TimerControls = () => {
     usePomodoro();
 
   return (
-    <div className="flex gap-2 absolute top-2 left-1/2 transform -translate-x-1/2 z-20">
+    <div className="flex gap-2.5 absolute top-2 left-1/2 transform -translate-x-1/2 z-20">
       <TimerControlButton
         onClick={handlePlayPause}
         icon={focusTimer.isRunning || breakTimer.isRunning ? Pause : Play}
