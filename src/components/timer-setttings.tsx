@@ -11,7 +11,7 @@ const TimerSettings = () => {
       <PageHeading>Timer Settings</PageHeading>
 
       <div className="flex flex-col gap-3 w-full relative z-5">
-        <h3 className="text-white text-center text-[12px] [word-spacing:5px]">Focus Time</h3>
+        <h2 className="text-white text-center text-[12px]">Focus</h2>
         <Slider
           value={[focusTime]}
           min={5}
@@ -23,7 +23,7 @@ const TimerSettings = () => {
       </div>
 
       <div className="flex flex-col gap-3 w-full relative z-5">
-        <h3 className="text-white text-center text-[12px] [word-spacing:5px]">Break Time</h3>
+        <h2 className="text-white text-center text-[12px]">Break</h2>
         <Slider
           value={[breakTime]}
           min={5}
