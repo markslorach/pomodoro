@@ -7,7 +7,7 @@ const TimerSettings = () => {
   const { focusTime, breakTime, setFocusTime, setBreakTime } = useSettings();
 
   return (
-    <Container className="pt-5 select-none">
+    <Container className="pt-1 select-none">
       <PageHeading>Settings</PageHeading>
 
       <div className="flex flex-col gap-3 w-full relative z-5">
