@@ -2,7 +2,8 @@ import { createContext, useState, ReactNode, useEffect } from "react";
 import useCountdown, { Countdown } from "@bradgarropy/use-countdown";
 import { useLocalStorage, useEventListener } from "usehooks-ts";
 import useSound from 'use-sound';
-import startPauseSound from '../assets/sfx/play.mp3';
+import startPauseSound from '../assets/sfx/start-pause.mp3';
+import sessionStartFinishSound from '../assets/sfx/session-start-finish.mp3';
 
 export type Mode = "focus" | "break";
 
@@ -34,7 +35,8 @@ export const PomodoroProvider = ({ children }: { children: ReactNode }) => {
     5
   );
   
-  const [play] = useSound(startPauseSound);
+  const [playStartPause] = useSound(startPauseSound);
+  const [playSessionStartFinish] = useSound(sessionStartFinishSound);
 
   const focusTimer = useCountdown({
     seconds: focusTime * 60,
@@ -42,6 +44,7 @@ export const PomodoroProvider = ({ children }: { children: ReactNode }) => {
       breakTimer.reset();
       setMode("break");
       breakTimer.start();
+      playSessionStartFinish();
     },
   });
 
@@ -51,6 +54,7 @@ export const PomodoroProvider = ({ children }: { children: ReactNode }) => {
       focusTimer.reset();
       setMode("focus");
       focusTimer.start();
+      playSessionStartFinish();
     },
   });
 
@@ -84,18 +88,18 @@ export const PomodoroProvider = ({ children }: { children: ReactNode }) => {
     if (mode === "focus") {
       if (focusTimer.isRunning) {
         focusTimer.pause();
-        play();
+        playStartPause();
       } else {
         focusTimer.start();
-        play();
+        playStartPause();
       }
     } else {
       if (breakTimer.isRunning) {
         breakTimer.pause();
-        play();
+        playStartPause();
       } else {
         breakTimer.start();
-        play();
+        playStartPause();
       }
     }
   };
