@@ -12,6 +12,7 @@ A simple, customisable digital clock-style Pomodoro timer designed for Notion em
 - Sound effects for session transitions and controls
 - Keyboard shortcuts for fast control
 - Responsive and embeddable widget
+- Saves your preferences with localStorage
 
 ## Getting Started
 
@@ -22,7 +23,6 @@ git clone https://github.com/markslorach/notion-pomodoro.git
 cd notion-pomodoro
 pnpm install
 ```
-
 ### Development
 
 ```bash
