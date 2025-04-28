@@ -18,7 +18,7 @@ A simple, customisable digital clock-style Pomodoro timer designed for Notion em
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/notion-pomodoro.git
+git clone https://github.com/markslorach/notion-pomodoro.git
 cd notion-pomodoro
 pnpm install
 ```
@@ -33,6 +33,12 @@ pnpm dev
 
 ```bash
 pnpm build
+```
+
+### Preview
+
+```bash
+pnpm preview
 ```
 
 ## Usage
@@ -102,9 +108,9 @@ You can embed the Pomodoro timer directly into your Notion pages using the publi
 
 ## Acknowledgements
 
-- [use-sound](https://github.com/joshwcomeau/use-sound) — for simple sound effect hooks in React
-- [@bradgarropy/use-countdown](https://github.com/bradgarropy/use-countdown) — for countdown timer logic
-- [usehooks-ts](https://usehooks-ts.com/) — for a collection of useful React hooks
+- [use-sound](https://github.com/joshwcomeau/use-sound)
+- [@bradgarropy/use-countdown](https://github.com/bradgarropy/use-countdown)
+- [usehooks-ts](https://usehooks-ts.com/)
 
 <br/>
 
