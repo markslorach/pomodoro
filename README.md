@@ -110,9 +110,9 @@ You can embed the Pomodoro timer directly into your Notion pages using the publi
 
 ## Acknowledgements
 
-- [use-sound](https://github.com/joshwcomeau/use-sound)
+- [@joshwcomeau/use-sound](https://github.com/joshwcomeau/use-sound)
 - [@bradgarropy/use-countdown](https://github.com/bradgarropy/use-countdown)
-- [usehooks-ts](https://usehooks-ts.com/)
+- [@juliencrn/usehooks-ts](https://github.com/juliencrn/usehooks-ts.git)
 
 <br/>
 
