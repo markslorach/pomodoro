@@ -102,9 +102,11 @@ You can embed the Pomodoro timer directly into your Notion pages using the publi
 
 ## Tech Stack
 
-- Vite React
+- React 19
 - TypeScript
 - Tailwind CSS
+- shadcn/ui
+- Vite
 
 ## Acknowledgements
 
