@@ -4,8 +4,6 @@
 
 A simple, customisable digital clock-style Pomodoro timer designed for Notion embeds and the web.
 
----
-
 ## Features
 
 - Minimal, distraction-free Pomodoro timer
@@ -14,8 +12,6 @@ A simple, customisable digital clock-style Pomodoro timer designed for Notion em
 - Sound effects for session transitions and controls
 - Keyboard shortcuts for fast control
 - Responsive and embeddable widget
-
----
 
 ## Getting Started
 
@@ -39,16 +35,13 @@ pnpm dev
 pnpm build
 ```
 
----
-
 ## Usage
 
 - Open the app in your browser.
 - Adjust focus and break times in the settings.
 - Choose your preferred timer colour in the colour palette.
 - Use keyboard shortcuts for quick control.
-
----
+  
 
 ## Embedding in Notion
 
@@ -59,8 +52,6 @@ You can embed the Pomodoro timer directly into your Notion pages using the publi
 1. In Notion, type "/embed" and select the "Embed" block.
 2. Paste the URL above into the embed block.
 3. Resize the embed block as needed for the best fit.
-
----
 
 ## Keyboard Shortcuts
 
@@ -103,15 +94,11 @@ You can embed the Pomodoro timer directly into your Notion pages using the publi
   </tbody>
 </table>
 
----
-
 ## Tech Stack
 
 - Vite React
 - TypeScript
 - Tailwind CSS
-
----
 
 ## Acknowledgements
 
@@ -119,5 +106,6 @@ You can embed the Pomodoro timer directly into your Notion pages using the publi
 - [@bradgarropy/use-countdown](https://github.com/bradgarropy/use-countdown) — for countdown timer logic
 - [usehooks-ts](https://usehooks-ts.com/) — for a collection of useful React hooks
 
+<br/>
 
 ![banner](.github/readme-assets/notion-pomodoro-example.png)
