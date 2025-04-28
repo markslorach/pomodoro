@@ -43,11 +43,9 @@ pnpm preview
 
 ## Usage
 
-- Open the app in your browser.
 - Adjust focus and break times in the settings.
 - Choose your preferred timer colour in the colour palette.
 - Use keyboard shortcuts for quick control.
-  
 
 ## Embedding in Notion
 
