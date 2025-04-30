@@ -93,7 +93,7 @@ You can embed the timer directly into your Notion pages using the following URL 
   <tbody>
     <tr>
       <td><kbd>Space</kbd></td>
-      <td>Play/Pause timer</td>
+      <td>Start/Pause timer</td>
     </tr>
     <tr>
       <td><kbd>R</kbd></td>
@@ -101,7 +101,7 @@ You can embed the timer directly into your Notion pages using the following URL 
     </tr>
     <tr>
       <td><kbd>F</kbd></td>
-      <td>Reset timer</td>
+      <td>Switch to focus mode</td>
     </tr>
     <tr>
       <td><kbd>B</kbd></td>
