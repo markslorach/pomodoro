@@ -6,13 +6,12 @@ A simple, customisable digital clock-style Pomodoro timer designed for Notion em
 
 ## Features
 
-- Minimal, distraction-free Pomodoro timer
 - Customisable focus and break durations
 - Vintage 60s-inspired colour palette
 - Sound effects for session transitions and controls
-- Keyboard shortcuts for fast control
-- Responsive and embeddable widget
-- Saves your preferences with localStorage
+- Keyboard shortcuts for quick control
+- Responsive and embeddable
+- Saves your preferences using localStorage
 
 ## Getting Started
 
