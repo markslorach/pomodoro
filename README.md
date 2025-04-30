@@ -45,7 +45,7 @@ pnpm preview
 
 ### Development (macOS)
 
-Developing and building the Pomodoro app as a native macOS application requires [Tauri](https://tauri.app/), which wraps the web app in a lightweight desktop shell.
+Developing and building the timer as a native macOS application requires [Tauri](https://tauri.app/). This wraps the app in a lightweight desktop shell.
 
 #### Prerequisites
 - [Rust](https://www.rust-lang.org/tools/install)
@@ -73,7 +73,7 @@ After building, a window will open allowing you to install the app directly into
 
 ## Embedding in Notion
 
-You can embed the Pomodoro timer directly into your Notion pages using the following URL -
+You can embed the timer directly into your Notion pages using the following URL -
 
 **Embed URL:** [https://pomodoro.markslorach.com/](https://pomodoro.markslorach.com/)
 
