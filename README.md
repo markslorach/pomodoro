@@ -25,19 +25,19 @@ pnpm install
 
 ### Development (Web)
 
-To start the web app in development mode:
+To start the web app in development mode -
 
 ```bash
 pnpm dev
 ```
 
-To build the web app for production:
+To build the web app for production -
 
 ```bash
 pnpm build
 ```
 
-To preview the production build locally:
+To preview the production build locally -
 
 ```bash
 pnpm preview
@@ -49,10 +49,6 @@ Developing and building the Pomodoro app as a native macOS application requires 
 
 #### Prerequisites
 - [Rust](https://www.rust-lang.org/tools/install)
-  - Install with -
-    ```bash
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-    ```
 - Xcode Command Line Tools
 
 #### Development
@@ -73,11 +69,11 @@ pnpm tauri build
 
 This will generate a `.app` bundle in the `src-tauri/target/release/bundle/macos/` directory.
 
-After building, a window will appear allowing you to install the app directly into your Applications folder.
+After building, a window will open allowing you to install the app directly into your Applications folder.
 
 ## Embedding in Notion
 
-You can embed the Pomodoro timer directly into your Notion pages using the public instance -
+You can embed the Pomodoro timer directly into your Notion pages using the following URL -
 
 **Embed URL:** [https://pomodoro.markslorach.com/](https://pomodoro.markslorach.com/)
 
