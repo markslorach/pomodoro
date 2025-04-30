@@ -2,7 +2,7 @@
 
 # Pomodoro Widget
 
-A simple, customisable digital clock-style Pomodoro timer designed for Notion embeds and the web.
+A simple, customisable digital clock-style Pomodoro timer designed for Notion embeds, the web and macOS.
 
 ## Features
 
@@ -23,23 +23,58 @@ git clone https://github.com/markslorach/notion-pomodoro.git
 cd notion-pomodoro
 pnpm install
 ```
-### Development
+
+### Development (Web)
+
+To start the web app in development mode:
 
 ```bash
 pnpm dev
 ```
 
-### Build
+To build the web app for production:
 
 ```bash
 pnpm build
 ```
 
-### Preview
+To preview the production build locally:
 
 ```bash
 pnpm preview
 ```
+
+### Development (macOS)
+
+Developing and building the Pomodoro app as a native macOS application requires [Tauri](https://tauri.app/), which wraps the web app in a lightweight desktop shell.
+
+#### Prerequisites
+- [Rust](https://www.rust-lang.org/tools/install)
+  - Install with -
+    ```bash
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    ```
+- Xcode Command Line Tools
+
+#### Development
+
+To run the macOS app in development mode -
+
+```bash
+pnpm tauri dev
+```
+
+#### Build
+
+To create a production build of the macOS app -
+
+```bash
+pnpm tauri build
+```
+
+This will generate a `.app` bundle in the `src-tauri/target/release/bundle/macos/` directory.
+
+After building, a window will appear allowing you to install the app directly into your Applications folder.
 
 ## Usage
 
@@ -105,6 +140,8 @@ You can embed the Pomodoro timer directly into your Notion pages using the publi
 - Tailwind CSS
 - shadcn/ui
 - Vite
+- Tauri
+
 
 ## Acknowledgements
 
