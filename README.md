@@ -76,12 +76,6 @@ This will generate a `.app` bundle in the `src-tauri/target/release/bundle/macos
 
 After building, a window will appear allowing you to install the app directly into your Applications folder.
 
-## Usage
-
-- Adjust focus and break times in the settings.
-- Choose your preferred timer colour in the colour palette.
-- Use keyboard shortcuts for quick control.
-
 ## Embedding in Notion
 
 You can embed the Pomodoro timer directly into your Notion pages using the public instance -
