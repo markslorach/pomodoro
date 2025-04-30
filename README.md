@@ -11,7 +11,7 @@ A simple, customisable digital clock-style Pomodoro timer designed for Notion em
 - Sound effects for session transitions and controls
 - Keyboard shortcuts for quick control
 - Responsive and embeddable
-- Saves your preferences using localStorage
+- Saves preferences using localStorage
 
 ## Getting Started
 
