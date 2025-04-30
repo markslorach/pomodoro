@@ -20,7 +20,7 @@ A simple, customisable digital clock-style Pomodoro timer designed for Notion em
 
 ```bash
 git clone https://github.com/markslorach/pomodoro.git
-cd notion-pomodoro
+cd pomodoro
 pnpm install
 ```
 
