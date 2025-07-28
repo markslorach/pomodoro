@@ -8,7 +8,7 @@ const TimerUI = ({ children }: { children: React.ReactNode }) => {
     <div
       id="timer-casing"
       className={cn(
-        `h-[203px] w-full max-w-[427px] min-w-[325px] shadow-inner shadow-white/20 rounded-[35px] overflow-hidden p-3 relative`,
+        `h-[203px] w-full max-w-[427px] min-w-[300px] shadow-inner shadow-white/20 rounded-[35px] overflow-hidden p-3 relative`,
         timerColour
       )}
     >
