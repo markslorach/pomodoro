@@ -3,7 +3,6 @@ import ColourSwatch from "./colour-swatch";
 import Container from "./container";
 import PageHeading from "./page-heading";
 
-// Vintage 60s colour palette
 const colourList = [
   "bg-[#A62C2C]",
   "bg-[#CF4917]",

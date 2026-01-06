@@ -1,9 +1,9 @@
 import { createContext, useState, ReactNode, useEffect } from "react";
 import useCountdown, { Countdown } from "@bradgarropy/use-countdown";
 import { useLocalStorage, useEventListener } from "usehooks-ts";
-import useSound from 'use-sound';
-import startPauseSound from '../assets/sfx/start-pause.mp3';
-import sessionStartFinishSound from '../assets/sfx/session-start-finish.mp3';
+import useSound from "use-sound";
+import startPauseSound from "../assets/sfx/start-pause.mp3";
+import sessionStartFinishSound from "../assets/sfx/session-start-finish.mp3";
 
 export type Mode = "focus" | "break";
 
@@ -34,7 +34,7 @@ export const PomodoroProvider = ({ children }: { children: ReactNode }) => {
     "break-time",
     5
   );
-  
+
   const [playStartPause] = useSound(startPauseSound);
   const [playSessionStartFinish] = useSound(sessionStartFinishSound);
 
@@ -119,7 +119,7 @@ export const PomodoroProvider = ({ children }: { children: ReactNode }) => {
   useEventListener("keydown", (e) => {
     switch (e.code) {
       case "Space":
-        e.preventDefault()
+        e.preventDefault();
         handlePlayPause();
         break;
       case "KeyR":
